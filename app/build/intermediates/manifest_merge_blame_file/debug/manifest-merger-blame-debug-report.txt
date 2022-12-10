@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.whatsappstorysaver"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:5:5-6:40
+11-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:7:5-80
+12-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:7:22-77
+13    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+13-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:8:5-9:40
+13-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:8:22-79
+14
+15    <application
+15-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:11:5-44:19
+16        android:allowBackup="true"
+16-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:12:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.8.0] C:\Users\www.abcom.in\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+18        android:dataExtractionRules="@xml/data_extraction_rules"
+18-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:13:9-65
+19        android:debuggable="true"
+20        android:fullBackupContent="@xml/backup_rules"
+20-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:14:9-54
+21        android:icon="@drawable/newlogo"
+21-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:15:9-41
+22        android:label="@string/app_name"
+22-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:16:9-41
+23        android:requestLegacyExternalStorage="true"
+23-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:17:9-52
+24        android:roundIcon="@drawable/newlogo"
+24-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:18:9-46
+25        android:supportsRtl="true"
+25-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:19:9-35
+26        android:theme="@style/Theme.WhatsappStorySaver" >
+26-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:20:9-56
+27        <activity
+27-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:22:9-29:20
+28            android:name="com.example.whatsappstorysaver.MainActivity"
+28-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:23:13-41
+29            android:exported="false"
+29-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:24:13-37
+30            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+30-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:25:13-72
+31            <meta-data
+31-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:26:13-28:36
+32                android:name="android.app.lib_name"
+32-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:27:17-52
+33                android:value="" />
+33-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:28:17-33
+34        </activity>
+35        <activity
+35-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:30:9-43:20
+36            android:name="com.example.whatsappstorysaver.SplashActivity"
+36-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:31:13-43
+37            android:exported="true"
+37-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:32:13-36
+38            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+38-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:33:13-72
+39            <intent-filter>
+39-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:34:13-38:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:35:17-69
+40-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:35:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:37:17-77
+42-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:37:27-74
+43            </intent-filter>
+44
+45            <meta-data
+45-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:26:13-28:36
+46                android:name="android.app.lib_name"
+46-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:27:17-52
+47                android:value="" />
+47-->C:\Android\2022\WhatsappStorySaver\app\src\main\AndroidManifest.xml:28:17-33
+48        </activity>
+49
+50        <provider
+50-->[com.squareup.picasso:picasso:2.8] C:\Users\www.abcom.in\.gradle\caches\transforms-3\09a4e08e6af500b8e31394df32082627\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
+51            android:name="com.squareup.picasso.PicassoProvider"
+51-->[com.squareup.picasso:picasso:2.8] C:\Users\www.abcom.in\.gradle\caches\transforms-3\09a4e08e6af500b8e31394df32082627\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
+52            android:authorities="com.example.whatsappstorysaver.com.squareup.picasso"
+52-->[com.squareup.picasso:picasso:2.8] C:\Users\www.abcom.in\.gradle\caches\transforms-3\09a4e08e6af500b8e31394df32082627\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
+53            android:exported="false" />
+53-->[com.squareup.picasso:picasso:2.8] C:\Users\www.abcom.in\.gradle\caches\transforms-3\09a4e08e6af500b8e31394df32082627\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
+54        <provider
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\www.abcom.in\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\www.abcom.in\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+56            android:authorities="com.example.whatsappstorysaver.androidx-startup"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\www.abcom.in\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+57            android:exported="false" >
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\www.abcom.in\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\www.abcom.in\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\www.abcom.in\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\www.abcom.in\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\www.abcom.in\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\www.abcom.in\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\www.abcom.in\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+64        </provider>
+65    </application>
+66
+67</manifest>
